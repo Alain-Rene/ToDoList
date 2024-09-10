@@ -1,4 +1,5 @@
 # ToDoList
+This Angular Todo list application allows users to manage their tasks by displaying a list of todos with details such as task names, completion status, duration, and priority. Users can mark tasks as complete, remove them, or add new tasks via a form. Completed tasks are visually distinguished with a line-through effect.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
 

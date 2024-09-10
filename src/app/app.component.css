@@ -1,0 +1,44 @@
+/* Strike through if task is complete */
+.complete{
+    text-decoration: line-through;
+    color: #888;
+}
+
+.btn-custom{
+    background-color:#ff69b4;
+}
+
+/* Body is the background */
+body{
+    font-family: 'Open Sans' sans-serif;
+    font-weight: 300;
+    background: linear-gradient(to right, #f857a6, #ff5858);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container is the actual To-Do List section */
+.container{
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75); 
+    max-width: 800px;
+    width: 90%;
+    max-height: 100vh;
+    display: grid;
+    margin: 20px auto;
+}
+
+/* Text color for High and Low priority tasks */
+#High{
+    color: crimson;
+}
+
+#Low{
+    color: darkgoldenrod;
+}
